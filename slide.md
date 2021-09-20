@@ -62,7 +62,22 @@ class: middle
 <iframe src="pgd_loss_8_mean.html" style="height: 80%; overflow:hidden; width: 120%; margin-left: -100px;" frameborder="0" marginheight="1" marginwidth="1" scrolling="no" allowtransparency="true" seamless="seamless"></iframe>
 
 ---
+class: middle
 
+# Sensitivity of PGD parameters 
+## Relationship between attack strength and PGD step size
+<iframe src="PGD_optimal_step_size.html" style="height: 80%; overflow:hidden; width: 120%; margin-left: -100px;" frameborder="0" marginheight="1" marginwidth="1" scrolling="no" allowtransparency="true" seamless="seamless"></iframe>
+
+---
+class: middle
+
+# Results 
+<!-- ## Better attacks do not lead to better defenses
+## We need to choose suboptimal PGD parameters
+## There is a need for a schedule on the attack strength, with small epsilon in first epochs, and large epsilon later, to achieve better defenses for all epsilons. -->
+<iframe src="PGD_loss_slider.html" style="height: 80%; overflow:hidden; width: 120%; margin-left: -100px;" frameborder="0" marginheight="1" marginwidth="1" scrolling="no" allowtransparency="true" seamless="seamless"></iframe>
+
+---
 class: end-slide, center
 count: false
 
