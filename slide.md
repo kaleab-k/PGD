@@ -27,7 +27,7 @@ We use the **3D-ResNext-101** model as a backbone for the video classification.�
 
 - Pretrained on **Kinetics-400**
 
-- Finetuned on **UCF-101-64​**
+- Finetuned on **UCF-101 (64 chunks)​**
 
 - Train accuracy: **top-1=90.98%**; *top-5=98.67%​*
 
