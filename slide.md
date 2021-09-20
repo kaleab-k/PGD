@@ -72,7 +72,9 @@ class: middle
 class: middle
 
 # AT results 
+
 - U:=U(0,12); rU:=U(12,0); αU:=U(2ε,α*); iU:=lU(1,15); lU:=lU(0,12)
+
 <iframe src="PGD_loss_slider.html" style="height: 80%; overflow:hidden; width: 120%; margin-left: -50px;" frameborder="0" marginheight="1" marginwidth="1" scrolling="no" allowtransparency="true" seamless="seamless"></iframe>
 
 ---
@@ -80,6 +82,7 @@ class: middle
 
 # Generalization gap 
 - Model: CAL(ε~U,α=α*,i=5)
+
 <iframe src="PGD_epoch_slider.html" style="height: 80%; overflow:hidden; width: 120%; margin-left: -50px;" frameborder="0" marginheight="1" marginwidth="1" scrolling="no" allowtransparency="true" seamless="seamless"></iframe>
 
 ---
