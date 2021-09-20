@@ -1,10 +1,11 @@
 class: middle, center, title-slide
 
-# Challenges on AT for Video
+# Challenges on Adversarial Training for Videos
 
 
 <br><br>
-René Vidal <br>
+Prof. René Vidal <br>
+Mathematical Institute for Data Science <br>
 Johns Hopkins University
 ---
 class: middle
@@ -59,14 +60,14 @@ class: middle
 
 # Sensitivity of PGD parameters 
 
-<iframe src="pgd_loss_8_mean.html" style="height: 80%; overflow:hidden; width: 120%; margin-left: -100px;" frameborder="0" marginheight="1" marginwidth="1" scrolling="no" allowtransparency="true" seamless="seamless"></iframe>
+<iframe src="pgd_loss_8_mean.html" style="height: 80%; overflow:hidden; width: 120%; margin-left: -100px;" frameborder="0" marginheight="1" marginwidth="1" scrolling="no" allowtransparency="true" seamless="seamless" id="pgd_loss_frm" onload="resizer('pgd_loss_frm');" ></iframe>
 
 ---
 class: middle
 
 # Sensitivity of PGD parameters 
 ## Relationship between attack strength and optimal PGD step size
-<iframe src="PGD_optimal_step_size.html" style="height: 80%; overflow:hidden; width: 100%;" frameborder="0" marginheight="1" marginwidth="1" scrolling="no" allowtransparency="true" seamless="seamless"></iframe>
+<iframe src="PGD_optimal_step_size.html" style="height: 80%; overflow:hidden; width: 100%;" frameborder="0" marginheight="1" marginwidth="1" scrolling="yes" allowtransparency="true" seamless="seamless" id="pgd_epoch_frm" onload="resizer('pgd_epoch_frm');"></iframe>
 
 ---
 class: middle
