@@ -42,10 +42,10 @@ class: middle
 - L∞ attacks: Projected Gradient Descent (PGD)​
 
   - Adversarial example:
-    <img src="figures/adv_ex.png">
+    <img src="figures/adv_ex.png" width="90%">
   - Iterative perturbation:​
-    <img src="figures/PGD_linf.png">
-    - ‘i’ indicates the ith iteration; α is the step size.​
+    <img src="figures/PGD_linf.png" width="90%">
+      - ‘i’ indicates the ith iteration; α is the step size.​
 ---
 
 
@@ -53,6 +53,7 @@ class: middle
 
 # Sensitivity of attack quality to PGD parameters 
 
+<iframe src="pgd_loss_8_mean.html"></iframe>
 
 ---
 
