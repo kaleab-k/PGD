@@ -48,12 +48,18 @@ class: middle
       - ‘i’ indicates the ith iteration; α is the step size.​
 ---
 
+class: middle
+
+# Sensitivity of PGD parameters 
+
+<iframe src="pgd_loss_4_mean.html" style="height: 80%; overflow:scroll; width: 100%" frameborder="0" marginheight="1" marginwidth="1" scrolling="yes" allowtransparency="true" seamless="seamless"></iframe>
+---
 
 class: middle
 
-# Sensitivity of attack quality to PGD parameters 
+# Sensitivity of PGD parameters 
 
-<iframe src="pgd_loss_8_mean.html"></iframe>
+<iframe src="pgd_loss_8_mean.html" style="height: 80%; overflow:scroll; width: 100%" frameborder="0" marginheight="1" marginwidth="1" scrolling="yes" allowtransparency="true" seamless="seamless"></iframe>
 
 ---
 
