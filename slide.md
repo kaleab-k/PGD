@@ -7,6 +7,7 @@ class: middle, center, title-slide
 René Vidal <br>
 Johns Hopkins University
 ---
+class: middle
 
 # Outline
 
@@ -21,13 +22,15 @@ class: middle
 
 # Standard training:
 
-We use the 3D-ResNext-101 model as a backbone for the video classification.​
+We use the **3D-ResNext-101** model as a backbone for the video classification.​
 
-- Pretrained on Kinetics-400, finetuned on UCF-101-64​
+- Pretrained on **Kinetics-400**
 
-- Train accuracy: top-1=90.98%; top-5=98.67%​
+- Finetuned on **UCF-101-64​**
 
-- Test accuracy: top-1=93.58%;  top-5=99.3%​
+- Train accuracy: **top-1=90.98%**; *top-5=98.67%​*
+
+- Test accuracy: **top-1=93.58%**;  *top-5=99.3%*​
 ---
 
 class: middle
@@ -39,9 +42,9 @@ class: middle
 - L∞ attacks: Projected Gradient Descent (PGD)​
 
   - Adversarial example:
-    <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+    <img src="figures/adv_ex.png">
   - Iterative perturbation:​
-    <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+    <img src="figures/PGD_linf.png">
     - ‘i’ indicates the ith iteration; α is the step size.​
 ---
 
