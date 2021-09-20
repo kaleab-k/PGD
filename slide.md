@@ -52,7 +52,7 @@ class: middle
 
 # Sensitivity of PGD parameters 
 
-<iframe src="pgd_loss_4_mean.html" style="height: 80%; overflow:scroll; width: 100%" frameborder="0" marginheight="1" marginwidth="1" scrolling="yes" allowtransparency="true" seamless="seamless"></iframe>
+<iframe src="pgd_loss_4_mean.html" style="height: 80%; overflow:scroll; width: 100%" frameborder="0" marginheight="1" marginwidth="1" scrolling="no" allowtransparency="true" seamless="seamless"></iframe>
 ---
 
 class: middle
