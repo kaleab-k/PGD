@@ -4,7 +4,7 @@ class: middle, center, title-slide
 
 
 <br><br>
-Prof. René Vidal <br> <br>
+Kaleab A. Kinfu <br> <br>
 Mathematical Institute for Data Science <br>
 Johns Hopkins University
 ---
